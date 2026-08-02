@@ -1,4 +1,5 @@
 #include "led_engine.h"
+#include "state.h"
 /*
   =====================================================
   FocusForge One
@@ -13,7 +14,7 @@
 const int LED_PIN = 5;
 const int BUTTON_PIN = 18;
 const int BUZZER_PIN = 19;
-
+FocusState currentState = IDLE;
 // ---------- Setup ----------
 void setup() {
 
