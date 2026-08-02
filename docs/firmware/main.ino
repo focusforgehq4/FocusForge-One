@@ -21,7 +21,7 @@ void setup() {
 
   pinMode(BUTTON_PIN, INPUT_PULLUP);
   pinMode(BUZZER_PIN, OUTPUT);
-
+ledSetup();
   Serial.println("--------------------------------");
   Serial.println("FocusForge One");
   Serial.println("Alpha 0.1 - First Light");
